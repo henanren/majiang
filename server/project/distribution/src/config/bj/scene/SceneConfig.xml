@@ -1,0 +1,29 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="rulesName">zhongyouGD</entry>
+    <entry key="sceneId">1000</entry>
+    <entry key="port">13020</entry>
+
+    <!--用于通知网关连接场景服务器用-->
+    <entry key="address">127.0.0.1</entry>
+    <entry key="asyncNums">8</entry>
+    <entry key="gatewayUserMaxConnect">8000</entry>
+    <!--#jdbc.url=jdbc:mysql://192.168.8.200:3306/tr_test?autoReconnect=true&amp;characterEncoding=utf-8-->
+    <entry key="jdbc.url">jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&amp;characterEncoding=utf-8&amp;useSSL=false</entry>
+    <entry key="jdbc.username">root</entry>
+    <entry key="jdbc.password">root</entry>
+    <entry key="jdbc.maxNums">20</entry>
+    <entry key="jdbc.minNums">5</entry>
+    <entry key="gmStatus">true</entry>
+    <entry key="titansMaxPlayer">20</entry>
+    <entry key="api.appKey">nXMk8qvf8CpdR2KI</entry>
+    <entry key="api.appId">1104202590</entry>
+    <entry key="api.url">119.147.19.43</entry>
+    <entry key="api.payZoneid">1</entry>
+    <entry key="service.dbThreadNums">10</entry>
+    <entry key="service.asyncThreadNums">4</entry>
+    <entry key="service.sceneThreadNums">4</entry>
+
+    <entry key="net.bossAddress">127.0.0.1</entry>
+    <entry key="net.bossPort">12101</entry>
+</properties>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	" default-autowire="byName">
+	<bean id="adminDao" class="game.boss.dao.dao.AdminDao"/>
+	<bean id="roomDao" class="game.boss.dao.dao.RoomDao"/>
+	<bean id="roomCheckIdPoolDao" class="game.boss.dao.dao.RoomCheckIdPoolDao"/>
+	<bean id="roomResultDao" class="game.boss.dao.dao.RoomResultDao"/>
+	<bean id="roomUserDao" class="game.boss.dao.dao.RoomUserDao"/>
+	<bean id="settingDao" class="game.boss.dao.dao.SettingDao"/>
+	<bean id="userDao" class="game.boss.dao.dao.UserDao"/>
+	<bean id="userAgentTokenDao" class="game.boss.dao.dao.UserAgentTokenDao"/>
+	<bean id="userLinkRoomDao" class="game.boss.dao.dao.UserLinkRoomDao"/>
+	<bean id="userLoginLogDao" class="game.boss.dao.dao.UserLoginLogDao"/>
+</beans>

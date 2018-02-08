@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd"
+       default-autowire="byType" default-lazy-init="false">
+
+
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:/BossConfig.xml</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+        <property name="filters" value="stat"/>
+
+        <property name="maxActive" value="${jdbc.maxNums}"/>
+        <property name="initialSize" value="${jdbc.minNums}"/>
+        <property name="maxWait" value="60000"/>
+        <property name="minIdle" value="${jdbc.minNums}"/>
+
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+
+        <property name="poolPreparedStatements" value="true"/>
+        <property name="maxOpenPreparedStatements" value="200"/>
+        <property name="connectionInitSqls" value="SET NAMES utf8mb4;"/>
+    </bean>
+
+<!--
+    <bean id="flywayWrapper" class="game.boss.FlywayWrapper">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="locations" value="db/migration"/>
+        <property name="migrate" value="true"/>
+    </bean>
+-->
+
+    <context:annotation-config/>
+    <context:component-scan base-package="game.boss.handler"/>
+    <context:component-scan base-package="game.boss.services"/>
+    <import resource="classpath*:game/boss/dao/DaoContext.xml"/>
+
+
+
+    <bean id="asyncDbService" class="game.boss.services.AsyncDbService">
+        <constructor-arg value="${service.dbThreadNums}"/>
+    </bean>
+    <bean id="asyncService" class="game.boss.services.AsyncService">
+        <constructor-arg value="${service.asyncThreadNums}"/>
+    </bean>
+    <bean id="gatewayManager" class="game.boss.net.GatewayManager">
+        <property name="gatewayUserMaxConnect" value="${gatewayUserMaxConnect}"/>
+    </bean>
+
+    <bean id="sceneManager" class="game.boss.net.SceneManager"/>
+    <bean id="bossService" class="game.boss.net.BossService"/>
+    <bean id="messageFactoryImpi" class="mj.net.message.MessageFactoryImpi"/>
+    <bean id="messageHandlerFactory" class="mj.net.handler.MessageHandlerFactory"/>
+
+    <bean id="gatewayListenServer" class="game.boss.net.GatewayListenServer"
+          destroy-method="close">
+
+        <property name="port" value="${net.gatewayListenServerPort}"/>
+
+        <property name="messageHandler">
+            <bean class="game.boss.net.GatewayListenHandler">
+                <property name="messageManager">
+                    <bean class="game.boss.net.MessageManager"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="sceneListenServer" class="game.boss.net.SceneListenServer"
+          destroy-method="close">
+        <property name="port" value="${net.sceneListenServerPort}"/>
+        <property name="messageHandler">
+            <bean class="game.boss.net.SceneListenHandler">
+                <property name="messageManager">
+                    <bean class="game.boss.net.SceneMessageManager"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+
+    <bean id="adminManager" class="game.boss.admin.AdminManager"/>
+    <bean id="adminListenServer" class="game.boss.admin.AdminListenServer"
+          destroy-method="close">
+        <property name="port" value="${net.adminListenServerPort}"></property>
+        <property name="messageHandler">
+            <bean class="game.boss.admin.AdminListenHandler">
+                <property name="messageManager">
+                    <bean class="game.boss.admin.AdminMessageManager"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+</beans>

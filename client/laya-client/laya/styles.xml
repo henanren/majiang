@@ -1,0 +1,21 @@
+<res>
+   <item name="base/dialog_bg.png" type="Image" compress="0" pack="1" quality="80" props="sizeGrid=90,37,44,35" picType="0"/>
+   <item name="base/dialog_content.png" type="Image" compress="0" pack="1" quality="80" props="sizeGrid=32,18,20,18" picType="0"/>
+   <item name="base/dialog_icon.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0"/>
+   <item name="base/btn_normal.png" type="Button" compress="0" pack="0" quality="80" props="sizeGrid=31,71,40,71" picType="0"/>
+   <item name="base/btn_danger.png" type="Button" compress="0" pack="0" quality="80" props="sizeGrid=31,71,40,71" picType="0"/>
+   <item name="ui/home/bg.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="ui/home/btn_create.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="ui/home/btn_join.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="ui/home/mm.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="ui/home/notice_bg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="base/tab_normal.png" type="Tab" compress="0" pack="0" quality="80" props="" picType="0"/>
+   <item name="base/line_vertical.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0"/>
+   <item name="base/wait_bg.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=24,24,24,24" picType="0"/>
+   <item name="base/btn_basic.png" type="Button" compress="0" pack="0" quality="80" props="sizeGrid=12,10,10,10" picType="0"/>
+   <item name="base/number_bg.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=12,12,12,12" picType="0"/>
+   <item name="ui/game/user_head_mask.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=60,60,60,60" picType="0"/>
+   <item name="ui/game/user_head_bg.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=60,60,60,60" picType="0"/>
+   <item name="ui/loading/bg.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="ui/loading/progress.png" type="ProgressBar" compress="0" pack="2" quality="80" props="" picType="0"/>
+</res>

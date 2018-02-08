@@ -1,0 +1,21 @@
+{
+  "android": {
+    "release": {
+      "keystore": "key/release-key.keystore",
+      "alias": "majiang",
+      "storePassword": "df4334gb",
+      "password": "df4334gb"
+    }
+  },
+  "ios": {
+    "debug": {
+      "developmentTeam": "ZF8FS672WW"
+    },
+
+    "release": {
+      "developmentTeam": "ZF8FS672WW",
+      "codeSignIdentity": "iPhone Developer",
+      "packageType": "ad-hoc"
+    }
+  }
+}

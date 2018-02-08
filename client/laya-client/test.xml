@@ -1,0 +1,79 @@
+<View width="1285" text="-100" sceneColor="#ffffff" height="588" editorInfo="compId=1">
+   <Sprite var="mainSprite" x="0" y="0" width="1285" height="588" editorInfo="compId=38">
+      <Sprite y="24.999999999999996" x="27.000000000000167" width="1227" var="shouPai3" scaleY="1" scaleX="1" height="172"
+              editorInfo="compId=4">
+         <Sprite y="26" x="0" width="250" var="chi3" height="128" editorInfo="compId=5">
+            <Image y="0" x="0" skin="ui/majiang/zheng_bg.png" editorInfo="compId=6">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=7"/>
+            </Image>
+            <Image y="0" x="84" skin="ui/majiang/zheng_bg.png" editorInfo="compId=8">
+               <Image y="0" x="0" skin="ui/majiang/zheng_32.png" editorInfo="compId=9"/>
+            </Image>
+            <Image y="0" x="168" skin="ui/majiang/zheng_bg.png" editorInfo="compId=10">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=11"/>
+            </Image>
+         </Sprite>
+         <Sprite y="26" x="508" width="250" var="anGangHide3" height="128" editorInfo="compId=12">
+            <Image y="0" x="84" skin="ui/majiang/zheng_an.png" editorInfo="compId=13"/>
+            <Image y="0" x="0" skin="ui/majiang/zheng_an.png" editorInfo="compId=14"/>
+            <Image y="-28" x="84" skin="ui/majiang/zheng_an.png" editorInfo="compId=15"/>
+            <Image y="0" x="168" skin="ui/majiang/zheng_an.png" editorInfo="compId=16"/>
+         </Sprite>
+         <Sprite y="26" x="760" width="248" var="mingGang3" height="128" editorInfo="compId=17">
+            <Image y="0" x="0" skin="ui/majiang/zheng_bg.png" editorInfo="compId=18">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=19"/>
+            </Image>
+            <Image y="0" x="83" skin="ui/majiang/zheng_bg.png" editorInfo="compId=20">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=21"/>
+            </Image>
+            <Image y="0" x="166" skin="ui/majiang/zheng_bg.png" editorInfo="compId=22">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=23"/>
+            </Image>
+            <Image y="-31" x="83" skin="ui/majiang/zheng_bg.png" editorInfo="compId=24">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=25"/>
+            </Image>
+         </Sprite>
+         <Sprite y="26" x="254" width="250" var="anGang3" height="128" editorInfo="compId=26">
+            <Image y="0" x="84" skin="ui/majiang/zheng_an.png" editorInfo="compId=27"/>
+            <Image y="0" x="0" skin="ui/majiang/zheng_an.png" editorInfo="compId=28"/>
+            <Image y="0" x="168" skin="ui/majiang/zheng_an.png" editorInfo="compId=29"/>
+            <Image y="-28" x="84" skin="ui/majiang/zheng_bg.png" editorInfo="compId=30">
+               <Image y="0" x="0" skin="ui/majiang/zheng_19.png" editorInfo="compId=31"/>
+            </Image>
+         </Sprite>
+         <Sprite y="0" x="1031" width="82" var="shou3" pivotY="-26" height="128" editorInfo="compId=32">
+            <Image y="0" x="0" skin="ui/majiang/shou_bg.png" editorInfo="compId=33">
+               <Image y="0" x="0" skin="ui/majiang/shou_32.png" editorInfo="compId=34"/>
+            </Image>
+         </Sprite>
+         <Sprite y="0" x="1144" width="82" var="fa3" pivotY="-26" height="128" editorInfo="compId=35">
+            <Image y="0" x="0" width="82" skin="ui/majiang/shou_bg.png" height="128" editorInfo="compId=36">
+               <Image y="0" x="0" skin="ui/majiang/shou_0.png" editorInfo="compId=37"/>
+            </Image>
+         </Sprite>
+      </Sprite>
+      <Sprite var="winSprite" x="0" y="190" width="1230" height="117" editorInfo="compId=45">
+         <Label y="22.5" x="1056" width="174" text="+100" overflow="hidden" height="54" fontSize="50" color="#cd5216" bold="true" var="winScore" align="right" editorInfo="compId=42"/>
+         <Label y="22.5" x="29" width="300" var="winName" text="小草小草小草小草小草" overflow="hidden" height="54" fontSize="50" color="#cd5216" bold="true" editorInfo="compId=40"/>
+         <Sprite x="400" y="2" width="585" height="95" editorInfo="compId=46">
+            <Label y="0" x="0" width="585" text="杠上花  清一色 一条龙" overflow="hidden" height="45" fontSize="40" color="#cd5216" bold="true" align="center" var="winFanString" editorInfo="compId=41"/>
+            <Label y="58" x="0" width="585" text="(40番)" overflow="hidden" height="37" fontSize="30" color="#cd5216" bold="true" align="center" var="winFan" editorInfo="compId=44"/>
+         </Sprite>
+      </Sprite>
+      <Sprite x="0" y="346" width="1230.9999999999998" height="54" editorInfo="compId=52">
+         <Label y="0" x="31" width="349" text="小草小草小草小草小草" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" var="name0" editorInfo="compId=43"/>
+         <Label y="0" x="1044.9999999999998" width="186" text="-100" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" align="right" var="score0" editorInfo="compId=47"/>
+      </Sprite>
+      <Sprite x="0" y="422" width="1230.9999999999998" height="54" editorInfo="compId=54">
+         <Label y="0" x="31" width="349" text="小草小草小草小草小草" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" var="name1" editorInfo="compId=55"/>
+         <Label y="0" x="1044.9999999999998" width="186" text="-100" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" align="right" var="score1" editorInfo="compId=56"/>
+      </Sprite>
+      <Sprite x="0" y="498" width="1230.9999999999998" height="54" editorInfo="compId=57">
+         <Label y="0" x="31" width="349" text="小草小草小草小草小草" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" var="name2" editorInfo="compId=58"/>
+         <Label y="0" x="1044.9999999999998" width="186" text="-100" overflow="hidden" height="54" fontSize="50" color="#573a1e" bold="true" align="right" var="score2" editorInfo="compId=59"/>
+      </Sprite>
+   </Sprite>
+   <Image y="685" x="0.9999999999998485" var="title" skin="ui/game/result_title_bg.png" editorInfo="compId=2">
+      <Image y="-12" x="107.5" var="titleIcon" skin="ui/game/result_title_win.png" editorInfo="compId=3"/>
+   </Image>
+</View>

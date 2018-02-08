@@ -1,0 +1,13 @@
+{
+	"name": "app-js-sdk",
+	"version": "0.0.5",
+	"private": true,
+	"scripts": {
+	},
+	"dependencies": {
+
+	},
+	"devDependencies": {
+
+	}
+}

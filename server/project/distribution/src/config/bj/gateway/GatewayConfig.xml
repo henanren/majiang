@@ -1,0 +1,15 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="gatewayId">100</entry>
+    <entry key="port">8010</entry>
+    <entry key="maxConnect">8000</entry>
+    <entry key="net.bossAddress">127.0.0.1</entry>
+    <entry key="net.bossPort">12100</entry>
+    <entry key="checkKey">WMGS97f2P5tLbra7DM3L5k4UN752vJqH</entry>
+    <entry key="checkConnect">false</entry>
+    <entry key="net.bossThreadNums">4</entry>
+    <entry key="net.workerThreadNums">8</entry>
+    <entry key="net.zipSize">256</entry>
+    <entry key="net.encryptValue">11</entry>
+    <entry key="net.isWebSocket">true</entry>
+</properties>

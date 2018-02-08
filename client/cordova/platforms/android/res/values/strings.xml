@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">众友广东麻将</string>
+  <string name="launcher_name">@string/app_name</string>
+  <string name="activity_name">@string/launcher_name</string>
+</resources>

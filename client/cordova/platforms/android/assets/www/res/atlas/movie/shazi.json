@@ -1,0 +1,348 @@
+{
+    "frames": {
+        "shaizi_anmi1.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 122,
+                "h": 115,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 53,
+                "y": 151,
+                "w": 122,
+                "h": 115
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi10.png": {
+            "frame": {
+                "x": 124,
+                "y": 0,
+                "w": 288,
+                "h": 106,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 58,
+                "y": 247,
+                "w": 288,
+                "h": 106
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi11.png": {
+            "frame": {
+                "x": 414,
+                "y": 0,
+                "w": 260,
+                "h": 108,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 66,
+                "y": 245,
+                "w": 260,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi12.png": {
+            "frame": {
+                "x": 124,
+                "y": 108,
+                "w": 269,
+                "h": 107,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 64,
+                "y": 248,
+                "w": 269,
+                "h": 107
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi13.png": {
+            "frame": {
+                "x": 395,
+                "y": 110,
+                "w": 262,
+                "h": 126,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 62,
+                "y": 226,
+                "w": 262,
+                "h": 126
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi14.png": {
+            "frame": {
+                "x": 0,
+                "y": 217,
+                "w": 261,
+                "h": 116,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 64,
+                "y": 242,
+                "w": 261,
+                "h": 116
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi15.png": {
+            "frame": {
+                "x": 263,
+                "y": 238,
+                "w": 268,
+                "h": 120,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 60,
+                "y": 242,
+                "w": 268,
+                "h": 120
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi16.png": {
+            "frame": {
+                "x": 533,
+                "y": 238,
+                "w": 274,
+                "h": 128,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 47,
+                "y": 227,
+                "w": 274,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi2.png": {
+            "frame": {
+                "x": 0,
+                "y": 360,
+                "w": 291,
+                "h": 192,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 49,
+                "y": 151,
+                "w": 291,
+                "h": 192
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi3.png": {
+            "frame": {
+                "x": 0,
+                "y": 554,
+                "w": 280,
+                "h": 151,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 57,
+                "y": 192,
+                "w": 280,
+                "h": 151
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi4.png": {
+            "frame": {
+                "x": 0,
+                "y": 707,
+                "w": 277,
+                "h": 111,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 57,
+                "y": 237,
+                "w": 277,
+                "h": 111
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi5.png": {
+            "frame": {
+                "x": 282,
+                "y": 554,
+                "w": 282,
+                "h": 162,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 49,
+                "y": 174,
+                "w": 282,
+                "h": 162
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi6.png": {
+            "frame": {
+                "x": 293,
+                "y": 368,
+                "w": 277,
+                "h": 157,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 56,
+                "y": 181,
+                "w": 277,
+                "h": 157
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi7.png": {
+            "frame": {
+                "x": 279,
+                "y": 718,
+                "w": 272,
+                "h": 123,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 61,
+                "y": 226,
+                "w": 272,
+                "h": 123
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi8.png": {
+            "frame": {
+                "x": 553,
+                "y": 718,
+                "w": 262,
+                "h": 128,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 59,
+                "y": 214,
+                "w": 262,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        },
+        "shaizi_anmi9.png": {
+            "frame": {
+                "x": 566,
+                "y": 527,
+                "w": 260,
+                "h": 127,
+                "idx": 0
+            },
+            "spriteSourceSize": {
+                "x": 68,
+                "y": 226,
+                "w": 260,
+                "h": 127
+            },
+            "sourceSize": {
+                "w": 500,
+                "h": 500
+            },
+            "rotated": false,
+            "trimed": true
+        }
+    },
+    "meta": {
+        "app": "http:\/\/www.layabox.com",
+        "version": "0.1.0 alpha",
+        "format": "json",
+        "scale": 1,
+        "image": "shazi.png",
+        "prefix": "movie\/shazi\/"
+    }
+}

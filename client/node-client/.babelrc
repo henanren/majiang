@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015",
+    "react"
+  ],
+  "compact":true,
+  "plugins": [
+    "syntax-flow",
+    "transform-es2015-for-of",
+    "transform-es2015-typeof-symbol",
+    "transform-flow-strip-types",
+    "transform-strict-mode",
+    "transform-class-properties"
+  ]
+}

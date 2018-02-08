@@ -1,0 +1,3 @@
+2018-02-06 13:35:35 DEBUG (game.boss.BossMain:21)- slf4j debug  test----
+2018-02-06 13:35:35 DEBUG (game.boss.BossMain:23)- log4j debug  test----
+2018-02-06 13:35:35 INFO  (game.boss.BossMain:24)-  log4j  info test----

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>公共</comment>
+    <entry key="error">{0}错误</entry>
+    <entry key="error1">{0}或者{1}错误</entry>
+    <entry key="error2">{0},{1}或者{2}错误</entry>
+    <entry key="error3">{0},{1},{2}或者{3}错误</entry>
+    <entry key="error4">{0},{1},{2},{3}或者{4}错误</entry>
+
+    <entry key="server.error">服务器错误！{0}</entry>
+    <entry key="server.validator">参数验证错误:[{0}]!</entry>
+    <entry key="Max">{0}最大为{1}个!</entry>
+    <entry key="NotNull">{0}不能为空!</entry>
+    <entry key="NotEmpty">{0}不能为空!</entry>
+    <entry key="NotBlank">{0}不能为空!</entry>
+    <entry key="Length">{0}必须是{2}到{1}个字符!</entry>
+    <entry key="Past">{0}必须是一个过去的日期!</entry>
+    <entry key="Digits">{0}必须是一个{2}位数字!</entry>
+    <entry key="Range">{0}错误的范围必须是{1}到{2}的数字!</entry>
+    <entry key="Pattern">{0}格式错误!</entry>
+    <entry key="Email">邮箱格式错误!</entry>
+    <entry key="Range.type">错误的{0}</entry>
+    <entry key="gender.f">女</entry>
+    <entry key="gender.m">男</entry>
+    <entry key="Exsit">{0}已存在!</entry>
+    <entry key="Clash">上级区域冲突!</entry>
+    <entry key="noFound">{0} 不存在!</entry>
+    <entry key="isUse">{0} 已经被使用!</entry>
+
+    <entry key="account.isUse">{0} 已经被使用!</entry>
+    <entry key="agent.invalidClientKey">错误的客户端KEY</entry>
+</properties>

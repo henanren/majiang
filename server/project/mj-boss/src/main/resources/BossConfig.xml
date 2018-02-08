@@ -1,0 +1,35 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="net.gatewayListenServerPort">12100</entry>
+    <entry key="net.sceneListenServerPort">12101</entry>
+    <entry key="net.adminListenServerPort">12102</entry>
+    <entry key="gatewayUserMaxConnect">8000</entry>
+    <!--#jdbc.url=jdbc:mysql://192.168.8.200:3306/tr_test?autoReconnect=true&amp;characterEncoding=utf-8-->
+    <entry key="jdbc.url">jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&amp;characterEncoding=utf-8&amp;useSSL=false</entry>
+    <entry key="jdbc.username">root</entry>
+    <entry key="jdbc.password">root</entry>
+    <entry key="jdbc.maxNums">20</entry>
+    <entry key="jdbc.minNums">5</entry>
+    <entry key="gmStatus">true</entry>
+    <entry key="titansMaxPlayer">20</entry>
+    <entry key="api.appKey">nXMk8qvf8CpdR2KI</entry>
+    <entry key="api.appId">1104202590</entry>
+    <entry key="api.url">119.147.19.43</entry>
+    <entry key="api.payZoneid">1</entry>
+    <entry key="service.dbThreadNums">10</entry>
+    <entry key="service.asyncThreadNums">4</entry>
+
+    <entry key="aliyun.accessKeyId"></entry>
+    <entry key="aliyun.secret"></entry>
+    <entry key="aliyun.signName">拍拍麻将</entry>
+    <entry key="aliyun.templateCode"></entry>
+
+    <!-- 短信相关配置信息 -->
+    <entry key="sms.platform">chuanglan</entry>
+    <entry key="sms.checkNums">4</entry>
+    <entry key="sms.expireMinutes">15</entry>
+    <entry key="sms.codeLength">4</entry>
+
+
+    <entry key="admin.privateKey">MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAI4tfrL9R3uy8eLg8M5SBAyGf0OtaNNTtyF7_wo4rRegi1jw2UCFVd26zzZe-zbrw74aCZ5WY4bBd_GsWB-3kIJDH6iRAzb-pu4pYfUgDclFhsrPYq33fC0dkepIWbC0hy_eTG6lvD26ao_x0GOw9S5728dxt6be7Kzp7noUe-OjAgMBAAECgYAe3C8hCKrIZbntBege0FyCn3rmJLCZFhWs1e4wuMaRV06HupddUtOlchPh-FHMxPXSwHIQBS5LJJk1QrRKBhz-ZXzvHWxDC3xJSeGbaIhklUFosmXRT_JpwIdbO75TDCXBJu-LWIkEpPRwZvcNab6U6vRuTXs4XobaQegGCW_GAQJBAN0PAaeghrmKmUZ7GprDvciuJHry_V7UICqqqaKn7B7tRUZjO0FRWBzKIrRtC9_B3QnHTY3qI0xf5pVYlaEzuqMCQQCkpp-05qX7A1_hEWj6cy7I_VPRxcWxQzjA2mhGEazI1z417PBfNcSg77-xQl3eHz16VYde7OJvvZ7-k0QTSsMBAkAzrMZeQRA9X0DlUPGvLAK5Xrv4YcUI3d2HG837z_VKZXzEL34yjqliUX47XyJfdBoPpx9iBVGrEN_-GW8g986xAkAw2EV0sx_2UU_2QuXztovgkFZ3WsaFCb4iaCia8M9jXYdVFA9TD25fmAA0I84ZAQeJ7SmVnYynPYeXWjTNzFYBAkAxj0SzNblwSAVp7yZ0D4mga4E2Y-kGbl70losoy_fEP-TIG5mjmnqqts_PPj4HHjahNrD_6aqyVe-IUIxPsNH7</entry>
+</properties>

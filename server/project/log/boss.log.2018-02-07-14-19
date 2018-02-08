@@ -1,0 +1,10 @@
+2018-02-07 14:19:19 ERROR (game.boss.BossMain:21)- qqq
+2018-02-07 14:19:19 DEBUG (game.boss.BossMain:22)- slf4j debug  test----
+2018-02-07 14:19:19 DEBUG (game.boss.BossMain:24)- log4j debug  test----
+2018-02-07 14:19:19 INFO  (game.boss.BossMain:25)-  log4j  info test----
+2018-02-07 14:19:19 ERROR (game.boss.BossMain:26)- qqq11111
+2018-02-07 14:19:24 INFO  (org.springframework.context.support.ClassPathXmlApplicationContext:582)- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2bbaf4f0: startup date [Wed Feb 07 14:19:24 CST 2018]; root of context hierarchy
+2018-02-07 14:19:25 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from class path resource [BossContext.xml]
+2018-02-07 14:19:25 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from URL [file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-dao/target/classes/game/boss/dao/DaoContext.xml]
+2018-02-07 14:19:26 INFO  (org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172)- Loading properties file from class path resource [BossConfig.xml]
+2018-02-07 14:19:26 WARN  (org.springframework.context.support.ClassPathXmlApplicationContext:550)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'adminListenServer' defined in class path resource [BossContext.xml]: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"

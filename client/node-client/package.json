@@ -1,0 +1,32 @@
+{
+  "name": "manager",
+  "description": "bjmajiang",
+  "scripts": {
+    "bj": "gulp clean && gulp icons --profile bj && gulp webclient --release --profile bj --version v2",
+    "gd": "gulp clean && gulp icons --profile gd && gulp webclient --release --profile gd --version v2",
+    "iosbj": "gulp clean && gulp icons --profile bj && gulp cordova --profile bj --version v2",
+    "iosgd": "gulp clean && gulp icons --profile gd && gulp cordova --profile gd --version v2",
+    "gd-icon": "gulp androidIcons iosIcons --profile gd ",
+    "gd-splash": "gulp androidSplash iosSplashLand --profile gd"
+   },
+  "devDependencies": {
+    "fs": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-connect": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "image-to-icon-converter": "latest",
+    "gulp-replace": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-minify-inline": "latest",
+    "gm": "^1.23.0",
+    "gulp-html-autoprefixer": "latest"
+  },
+  "nodeSassConfig": {
+    "binarySite": ""
+  }
+}

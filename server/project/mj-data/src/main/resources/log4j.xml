@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="CONSOLE.ERR" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.err" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%p\t%m \t- (%F:%L) %d{HH:mm:ss,SSS} [%t]%n" />
+		</layout>
+		
+	</appender>
+
+	<appender name="ASYNC_CONSOLE.ERR" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="512" />
+		<param name="LocationInfo" value="true" />
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="warn" />
+			<param name="LevelMax" value="fatal" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+		<appender-ref ref="CONSOLE.ERR" />
+	</appender>
+
+	<appender name="CONSOLE.OUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%p\t%m \t- (%F:%L) %d{HH:mm:ss,SSS} [%t]%n" />
+		</layout>
+	</appender>
+	
+	<appender name="ASYNC_CONSOLE.OUT" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="512" />
+		<param name="LocationInfo" value="true" />
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="debug" />
+			<param name="LevelMax" value="info" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+		<appender-ref ref="CONSOLE.OUT" />
+	</appender>
+
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/server.log" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p (%c:%L)- %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ASYNC_FILE" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="512" />
+		<param name="LocationInfo" value="true" />
+		<appender-ref ref="FILE" />
+	</appender>
+	
+	<appender name="FILEERROR" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/server_error.log" />
+		<param name="Encoding" value="UTF-8" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %-5p (%c:%L)- %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ASYNC_FILEERROR" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="512" />
+		<param name="LocationInfo" value="true" />
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="warn" />
+			<param name="LevelMax" value="fatal" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+		<appender-ref ref="FILEERROR" />
+	</appender>
+
+	<logger name="org.apache">
+		<level value="WARN" />
+	</logger>
+	<logger name="org.apache.velocity">
+		<level value="FATAL" />
+	</logger>
+	<logger name="java.sql">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="java.sql.PreparedStatement">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="org.springframework">
+		<level value="INFO" />
+	</logger>
+	<logger name="io.grass">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="io.grass.core.dao">
+		<level value="INFO" />
+	</logger>
+	<logger name="com.jolbox">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="com.zgame">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="com.isnowfox">
+		<level value="DEBUG" />
+	</logger>
+	<root>
+		<priority value="INFO" />
+		<appender-ref ref="ASYNC_CONSOLE.ERR" />
+		<appender-ref ref="ASYNC_CONSOLE.OUT" />
+		<appender-ref ref="ASYNC_FILE" />
+		<appender-ref ref="ASYNC_FILEERROR" />
+	</root>
+</log4j:configuration>

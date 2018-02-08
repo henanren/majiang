@@ -1,0 +1,25 @@
+{
+    "version": "0.10.1",
+    "name": "xu.li.cordova.wechat",
+    "cordova_name": "Wechat",
+    "description": "A cordova plugin, a JS version of Wechat SDK",
+    "license": "MIT",
+    "repo": "https://github.com/xu-li/cordova-plugin-wechat.git",
+    "issue": "https://github.com/xu-li/cordova-plugin-wechat/issues",
+    "keywords": [
+        "cordova",
+        "wechat",
+        "weixin",
+        "share"
+    ],
+    "platforms": [
+        "ios",
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.5.0"
+        }
+    ]
+}

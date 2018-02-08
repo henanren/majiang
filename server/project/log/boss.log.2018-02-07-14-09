@@ -1,0 +1,35 @@
+2018-02-07 14:09:15 ERROR (game.boss.BossMain:43)- 服务器启动错误,准备关闭
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'adminListenServer' defined in class path resource [BossContext.xml]: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:223)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:222)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:281)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.isnowfox.core.SpringIocFactory.<init>(SpringIocFactory.java:24)
+	at game.boss.IocFactoryProxy.init(IocFactoryProxy.java:20)
+	at game.boss.StartWarp.start(StartWarp.java:30)
+	at game.boss.BossMain.main(BossMain.java:24)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:258)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:282)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:204)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:141)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:82)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:220)
+	... 12 more
+2018-02-07 14:09:22 ERROR (game.boss.BossMain:21)- qqq
+2018-02-07 14:09:29 DEBUG (game.boss.BossMain:22)- slf4j debug  test----
+2018-02-07 14:09:31 DEBUG (game.boss.BossMain:24)- log4j debug  test----
+2018-02-07 14:09:32 INFO  (game.boss.BossMain:25)-  log4j  info test----
+2018-02-07 14:09:32 ERROR (game.boss.BossMain:26)- qqq11111
+2018-02-07 14:09:35 INFO  (org.springframework.context.support.ClassPathXmlApplicationContext:582)- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1188e820: startup date [Wed Feb 07 14:09:35 CST 2018]; root of context hierarchy
+2018-02-07 14:09:35 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from class path resource [BossContext.xml]
+2018-02-07 14:09:36 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from URL [file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-dao/target/classes/game/boss/dao/DaoContext.xml]
+2018-02-07 14:09:37 INFO  (org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172)- Loading properties file from class path resource [BossConfig.xml]
+2018-02-07 14:09:37 WARN  (org.springframework.context.support.ClassPathXmlApplicationContext:550)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'adminListenServer' defined in class path resource [BossContext.xml]: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'net.bjSceneListenServerPort' in string value "${net.bjSceneListenServerPort}"

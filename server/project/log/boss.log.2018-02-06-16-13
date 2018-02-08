@@ -1,0 +1,5 @@
+2018-02-06 16:13:35 ERROR (game.boss.BossMain:21)- qqq
+2018-02-06 16:13:35 DEBUG (game.boss.BossMain:22)- slf4j debug  test----
+2018-02-06 16:13:35 DEBUG (game.boss.BossMain:24)- log4j debug  test----
+2018-02-06 16:13:35 INFO  (game.boss.BossMain:25)-  log4j  info test----
+2018-02-06 16:13:35 ERROR (game.boss.BossMain:26)- qqq11111

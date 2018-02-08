@@ -1,0 +1,50 @@
+<component>
+    <moduleSets>
+        <moduleSet>
+            <useAllReactorProjects>true</useAllReactorProjects>
+            <includes>
+                <include>com.isnowfox.game.mj:mj-boss</include>
+            </includes>
+            <binaries>
+                <outputDirectory>boss/classes</outputDirectory>
+                <includeDependencies>false</includeDependencies>
+            </binaries>
+        </moduleSet>
+    </moduleSets>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>false</useProjectArtifact>
+            <outputDirectory>boss/lib</outputDirectory>
+
+            <excludes>
+                <exclude>org.apache.logging.log4j:log4j-slf4j-impl</exclude>
+                <exclude>org.apache.logging.log4j:log4j-api</exclude>
+                <exclude>org.apache.logging.log4j:log4j-core</exclude>
+            </excludes>
+
+        </dependencySet>
+    </dependencySets>
+    <fileSets>
+        <fileSet>
+            <directory>${config.path}/boss/</directory>
+            <includes>
+                <include>BossConfig.xml</include>
+            </includes>
+            <outputDirectory>boss/classes/</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${config.path}/boss/</directory>
+            <includes>
+                <include>startup.sh</include>
+            </includes>
+            <outputDirectory>boss/</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${config.path}/boss/</directory>
+            <includes>
+                <include>Dockerfile</include>
+            </includes>
+            <outputDirectory>boss/</outputDirectory>
+        </fileSet>
+    </fileSets>
+</component>

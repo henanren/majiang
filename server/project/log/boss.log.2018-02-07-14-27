@@ -1,0 +1,57 @@
+2018-02-07 14:27:15 INFO  (org.springframework.context.support.ClassPathXmlApplicationContext:582)- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@517cd4b: startup date [Wed Feb 07 14:27:15 CST 2018]; root of context hierarchy
+2018-02-07 14:27:15 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from class path resource [BossContext.xml]
+2018-02-07 14:27:16 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from URL [file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-dao/target/classes/game/boss/dao/DaoContext.xml]
+2018-02-07 14:27:17 INFO  (org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172)- Loading properties file from class path resource [BossConfig.xml]
+2018-02-07 14:27:18 INFO  (com.alibaba.druid.pool.DruidDataSource:722)- {dataSource-1} inited
+2018-02-07 14:27:19 DEBUG (org.forkjoin.core.dao.impi.ReadOnlyDaoImpi:164)- querySingle: SELECT * FROM `setting` WHERE `id`=? ORDER BY `id` DESC; args:[1]; table:setting
+2018-02-07 14:27:19 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:123)- {conn-10005, pstmt-20005} enter cache
+2018-02-07 14:27:20 DEBUG (game.boss.services.RoomService:98)- init:UPDATE room_check_id_pool SET `state`=0 WHERE `state`=2
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.logging.InternalLoggerFactory:71)- Using SLF4J as the default logging framework
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:71)- java.nio.Buffer.address: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:71)- sun.misc.Unsafe.theUnsafe: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:71)- sun.misc.Unsafe.copyMemory: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:71)- direct buffer constructor: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:76)- java.nio.Bits.unaligned: available, true
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent0:76)- java.nio.DirectByteBuffer.<init>(long, int): available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.Cleaner0:76)- java.nio.ByteBuffer.cleaner(): available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:71)- Platform: Windows
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- Java version: 8
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- -Dio.netty.noUnsafe: false
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- sun.misc.Unsafe: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- -Dio.netty.noJavassist: false
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:71)- Javassist: available
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- -Dio.netty.tmpdir: C:\Users\31693\AppData\Local\Temp (java.io.tmpdir)
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- -Dio.netty.noPreferDirect: false
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:76)- io.netty.maxDirectMemory: 3784310784 bytes
+2018-02-07 14:27:32 INFO  (com.isnowfox.game.proxy.PxServer:69)- 启动端口监听！11000
+2018-02-07 14:27:32 DEBUG (io.netty.channel.MultithreadEventLoopGroup:76)- -Dio.netty.eventLoopThreads: 8
+2018-02-07 14:27:32 DEBUG (io.netty.channel.nio.NioEventLoop:76)- -Dio.netty.noKeySetOptimization: false
+2018-02-07 14:27:32 DEBUG (io.netty.channel.nio.NioEventLoop:76)- -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-02-07 14:27:32 DEBUG (io.netty.util.internal.PlatformDependent:71)- org.jctools-core.MpscChunkedArrayQueue: available
+2018-02-07 14:27:32 DEBUG (io.netty.channel.DefaultChannelId:76)- -Dio.netty.processId: 15456 (auto-detected)
+2018-02-07 14:27:32 DEBUG (io.netty.util.NetUtil:76)- -Djava.net.preferIPv4Stack: false
+2018-02-07 14:27:32 DEBUG (io.netty.util.NetUtil:76)- -Djava.net.preferIPv6Addresses: false
+2018-02-07 14:27:32 DEBUG (io.netty.util.NetUtil:86)- Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-02-07 14:27:32 DEBUG (io.netty.util.NetUtil:81)- \proc\sys\net\core\somaxconn: 200 (non-existent)
+2018-02-07 14:27:33 DEBUG (io.netty.channel.DefaultChannelId:76)- -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-02-07 14:27:33 DEBUG (io.netty.util.internal.ThreadLocalRandom:71)- -Dio.netty.initialSeedUniquifier: 0x3672ac89af3506ff
+2018-02-07 14:27:33 DEBUG (io.netty.util.ResourceLeakDetector:81)- -Dio.netty.leakDetection.level: simple
+2018-02-07 14:27:33 DEBUG (io.netty.util.ResourceLeakDetector:81)- -Dio.netty.leakDetection.maxRecords: 4
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.numHeapArenas: 8
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.numDirectArenas: 8
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.pageSize: 8192
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.maxOrder: 11
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.chunkSize: 16777216
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.tinyCacheSize: 512
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.smallCacheSize: 256
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.normalCacheSize: 64
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.PooledByteBufAllocator:76)- -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.ByteBufUtil:76)- -Dio.netty.allocator.type: pooled
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.ByteBufUtil:76)- -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-02-07 14:27:33 DEBUG (io.netty.buffer.ByteBufUtil:76)- -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-02-07 14:27:34 INFO  (com.isnowfox.game.proxy.PxServer:69)- 启动端口监听！11001
+2018-02-07 14:27:36 INFO  (com.isnowfox.game.proxy.PxServer:69)- 启动端口监听！11002
+2018-02-07 14:27:37 INFO  (game.boss.BossMain:41)- 服务器启动完毕！
+2018-02-07 14:27:40 ERROR (com.isnowfox.core.thread.FrameThread:40)- 帧延迟:-648 --- game.boss.services.RoomService

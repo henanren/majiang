@@ -1,0 +1,16 @@
+spring:
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+
+debug:
+    false
+server:
+    port: 9090
+
+client:
+    apiAddress: http://127.0.0.1:8080/
+    apiVersion: v1
+    version: v1

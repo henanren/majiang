@@ -1,0 +1,37 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-name": {
+            "APP_NAME": "众友广东麻将",
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": "需要定位确定是否作弊",
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "wx15a6c9172f161305",
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.forkjoin.bjmajiang"
+        }
+    }
+}

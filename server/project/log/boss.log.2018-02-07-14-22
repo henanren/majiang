@@ -1,0 +1,130 @@
+2018-02-07 14:22:51 INFO  (org.springframework.context.support.ClassPathXmlApplicationContext:582)- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e25a92e: startup date [Wed Feb 07 14:22:51 CST 2018]; root of context hierarchy
+2018-02-07 14:22:51 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from class path resource [BossContext.xml]
+2018-02-07 14:22:52 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from URL [file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-dao/target/classes/game/boss/dao/DaoContext.xml]
+2018-02-07 14:22:52 INFO  (org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172)- Loading properties file from class path resource [BossConfig.xml]
+2018-02-07 14:22:54 INFO  (com.alibaba.druid.pool.DruidDataSource:722)- {dataSource-1} inited
+2018-02-07 14:22:54 INFO  (org.flywaydb.core.internal.util.VersionPrinter:44)- Flyway 4.2.0 by Boxfuse
+2018-02-07 14:22:54 INFO  (org.flywaydb.core.internal.dbsupport.DbSupportFactory:44)- Database: jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&characterEncoding=utf-8&useSSL=false (MySQL 5.5)
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.Flyway:40)- DDL Transactions Supported: false
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.Flyway:40)- Schema: boss
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- Spring Jdbc available: true
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.callback.SqlScriptFlywayCallback:40)- Scanning for SQL callbacks ...
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: '', Suffix: '.sql')
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Determining location urls for classpath:db/migration using ClassLoader sun.misc.Launcher$AppClassLoader@58644d46 ...
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner:40)- Scanning starting at classpath root in filesystem: E:\workspace2\openmajiang\OpenMajiang\server\project\mj-boss\target\classes\
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner:40)- Scanning for resources in path: E:\workspace2\openmajiang\OpenMajiang\server\project\mj-boss\target\classes\db\migration (db/migration)
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Found resource: db/migration/V0.1__init.sql
+2018-02-07 14:22:54 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:123)- {conn-10005, pstmt-20005} enter cache
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.command.DbValidate:40)- Validating migrations ...
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: 'V', Suffix: '.sql')
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:22:54 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Found resource: db/migration/V0.1__init.sql
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: 'R', Suffix: '.sql')
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classes at 'classpath:db/migration' (Implementing: 'org.flywaydb.core.api.migration.jdbc.JdbcMigration')
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classes at 'classpath:db/migration' (Implementing: 'org.flywaydb.core.api.migration.spring.SpringJdbcMigration')
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:22:55 INFO  (org.flywaydb.core.internal.command.DbValidate:44)- Successfully validated 1 migration (execution time 00:00.338s)
+2018-02-07 14:22:55 DEBUG (org.flywaydb.core.internal.command.DbSchemas:40)- Schema `boss` already exists. Skipping schema creation.
+2018-02-07 14:22:55 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:123)- {conn-10005, pstmt-20006} enter cache
+2018-02-07 14:22:55 WARN  (org.springframework.context.support.ClassPathXmlApplicationContext:550)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayWrapper': Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Found non-empty schema(s) `boss` without metadata table! Use baseline() or set baselineOnMigrate to true to initialize the metadata table.
+2018-02-07 14:22:55 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:154)- {conn-10005, pstmt-20005} exit cache
+2018-02-07 14:22:55 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:154)- {conn-10005, pstmt-20006} exit cache
+2018-02-07 14:22:55 INFO  (com.alibaba.druid.pool.DruidDataSource:1451)- {dataSource-1} closed
+2018-02-07 14:23:43 ERROR (game.boss.BossMain:21)- qqq
+2018-02-07 14:23:43 DEBUG (game.boss.BossMain:22)- slf4j debug  test----
+2018-02-07 14:23:43 DEBUG (game.boss.BossMain:24)- log4j debug  test----
+2018-02-07 14:23:43 INFO  (game.boss.BossMain:25)-  log4j  info test----
+2018-02-07 14:23:43 ERROR (game.boss.BossMain:26)- qqq11111
+2018-02-07 14:23:43 INFO  (org.springframework.context.support.ClassPathXmlApplicationContext:582)- Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2280cdac: startup date [Wed Feb 07 14:23:43 CST 2018]; root of context hierarchy
+2018-02-07 14:23:44 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from class path resource [BossContext.xml]
+2018-02-07 14:23:44 INFO  (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317)- Loading XML bean definitions from URL [file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-dao/target/classes/game/boss/dao/DaoContext.xml]
+2018-02-07 14:23:44 INFO  (org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172)- Loading properties file from class path resource [BossConfig.xml]
+2018-02-07 14:23:45 INFO  (com.alibaba.druid.pool.DruidDataSource:722)- {dataSource-1} inited
+2018-02-07 14:23:45 INFO  (org.flywaydb.core.internal.util.VersionPrinter:44)- Flyway 4.2.0 by Boxfuse
+2018-02-07 14:23:45 INFO  (org.flywaydb.core.internal.dbsupport.DbSupportFactory:44)- Database: jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&characterEncoding=utf-8&useSSL=false (MySQL 5.5)
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.Flyway:40)- DDL Transactions Supported: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.Flyway:40)- Schema: boss
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- Spring Jdbc available: true
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.callback.SqlScriptFlywayCallback:40)- Scanning for SQL callbacks ...
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: '', Suffix: '.sql')
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Determining location urls for classpath:db/migration using ClassLoader sun.misc.Launcher$AppClassLoader@2d98a335 ...
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner:40)- Scanning starting at classpath root in filesystem: E:\workspace2\openmajiang\OpenMajiang\server\project\mj-boss\target\classes\
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner:40)- Scanning for resources in path: E:\workspace2\openmajiang\OpenMajiang\server\project\mj-boss\target\classes\db\migration (db/migration)
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Found resource: db/migration/V0.1__init.sql
+2018-02-07 14:23:45 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:123)- {conn-10005, pstmt-20005} enter cache
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.command.DbValidate:40)- Validating migrations ...
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: 'V', Suffix: '.sql')
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Found resource: db/migration/V0.1__init.sql
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classpath resources at 'classpath:db/migration' (Prefix: 'R', Suffix: '.sql')
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classes at 'classpath:db/migration' (Implementing: 'org.flywaydb.core.api.migration.jdbc.JdbcMigration')
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning for classes at 'classpath:db/migration' (Implementing: 'org.flywaydb.core.api.migration.spring.SpringJdbcMigration')
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Scanning URL: file:/E:/workspace2/openmajiang/OpenMajiang/server/project/mj-boss/target/classes/db/migration
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.FeatureDetector:40)- JBoss VFS v2 available: false
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner:40)- Filtering out resource: db/migration/V0.1__init.sql (filename: V0.1__init.sql)
+2018-02-07 14:23:45 INFO  (org.flywaydb.core.internal.command.DbValidate:44)- Successfully validated 1 migration (execution time 00:00.046s)
+2018-02-07 14:23:45 DEBUG (org.flywaydb.core.internal.command.DbSchemas:40)- Schema `boss` already exists. Skipping schema creation.
+2018-02-07 14:23:45 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:123)- {conn-10005, pstmt-20006} enter cache
+2018-02-07 14:23:45 WARN  (org.springframework.context.support.ClassPathXmlApplicationContext:550)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayWrapper': Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Found non-empty schema(s) `boss` without metadata table! Use baseline() or set baselineOnMigrate to true to initialize the metadata table.
+2018-02-07 14:23:45 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:154)- {conn-10005, pstmt-20005} exit cache
+2018-02-07 14:23:45 DEBUG (com.alibaba.druid.pool.PreparedStatementPool:154)- {conn-10005, pstmt-20006} exit cache
+2018-02-07 14:23:45 INFO  (com.alibaba.druid.pool.DruidDataSource:1451)- {dataSource-1} closed
+2018-02-07 14:23:45 ERROR (game.boss.BossMain:43)- 服务器启动错误,准备关闭
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayWrapper': Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Found non-empty schema(s) `boss` without metadata table! Use baseline() or set baselineOnMigrate to true to initialize the metadata table.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.isnowfox.core.SpringIocFactory.<init>(SpringIocFactory.java:24)
+	at game.boss.IocFactoryProxy.init(IocFactoryProxy.java:20)
+	at game.boss.StartWarp.start(StartWarp.java:30)
+	at game.boss.BossMain.main(BossMain.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: org.flywaydb.core.api.FlywayException: Found non-empty schema(s) `boss` without metadata table! Use baseline() or set baselineOnMigrate to true to initialize the metadata table.
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:995)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:971)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1464)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:971)
+	at game.boss.FlywayWrapper.init(FlywayWrapper.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 22 more

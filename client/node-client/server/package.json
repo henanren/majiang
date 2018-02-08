@@ -1,0 +1,14 @@
+{
+  "name": "manager",
+  "description": "bjmajiang",
+  "devDependencies": {
+    "http": "latest",
+    "express": "latest",
+    "url": "latest",
+    "fs": "latest",
+    "path": "latest"
+  },
+  "nodeSassConfig": {
+    "binarySite": ""
+  }
+}

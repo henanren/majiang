@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>表单</comment>
+    <entry key="user">用户</entry>
+    <entry key="name">用户名</entry>
+    <entry key="userId">用户id</entry>
+    <entry key="nickName">昵称</entry>
+    <entry key="gender">性别</entry>
+    <entry key="birthday">生日</entry>
+    <entry key="password">密码</entry>
+    <entry key="job">职业</entry>
+
+    <entry key="clientKey">客户端KEY</entry>
+    <entry key="nameOrPassword">用户名或者密码</entry>
+</properties>

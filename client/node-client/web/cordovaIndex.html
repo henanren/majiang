@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+</head>
+<body style="margin:0;overflow:hidden;overflow-x:hidden;overflow-y:hidden;background-color: #000;">
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript">
+    window.serverUrl = "ws://182.92.100.147:8012/g";
+//    window.serverUrl = "ws://192.168.0.205:8010/g";
+    window.gameInit = function (obj, initCallback) {
+        window.$initCallback = initCallback.bind(obj);
+    };
+</script>
+<script src="myLaya.min.js" loader="laya"></script>
+<script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        (function () {
+            var Wechat = cordova.require("cordova-plugin-wechat.Wechat");
+
+
+            var clientAddress = "http://gd.paipaimj.com/";
+//            var clientAddress = "http://192.168.0.205:8080/";
+
+            if (typeof Wechat === "undefined") {
+                alert("Wechat plugin is not installed.");
+                return false;
+            } else {
+                window.shareInviteUser = function (roomId) {
+                    Wechat.isInstalled(function (installed) {
+                        var params = {
+                            scene: Wechat.Scene.SESSION
+                        };
+                        params.message = {
+                            mediaTagName: "S-TAG-001",
+                            messageExt: "",
+                            messageAction: "<action>dotalist</action>",
+                            media: {}
+                        };
+                        params.message.title = '房间:' + roomId + "", // 分享标题
+                            params.message.description = "邀请你进行一局麻将";
+                        params.message.thumb = "www/icon/180.png";
+                        params.message.media.type = Wechat.Type.LINK;
+                        params.message.media.webpageUrl = clientAddress + "?roomId=" + roomId;
+
+                        Wechat.share(params, function () {
+//                            alert("邀请发送成功");
+                        }, function (reason) {
+                            alert("邀请发送失败：" + reason);
+                        });
+                    }, function (reason) {
+                        alert("未安装微信");
+                    });
+                };
+
+                window.weixinLogin = function (callback) {
+                    Wechat.isInstalled(function (installed) {
+                        var scope = "snsapi_userinfo", state = "_" + (+new Date());
+                        Wechat.auth(scope, state, function (response) {
+
+                            var url = clientAddress + "appWeixinLogin.json";
+
+                            var httpRequest = new XMLHttpRequest();
+
+                            httpRequest.onreadystatechange = alertContents;
+                            httpRequest.open('POST', url);
+                            httpRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                            console.log('weiXinJson', response);
+                            httpRequest.send("data=" + encodeURIComponent(JSON.stringify(response)));
+                            function alertContents() {
+                                if (httpRequest.readyState === XMLHttpRequest.DONE) {
+                                    if (httpRequest.status === 200) {
+                                        var json = JSON.parse(httpRequest.responseText);
+                                        console.log("微信登录结果:", httpRequest.responseText);
+                                        if (json.msg) {
+                                            callback();
+                                            console.log("微信登错误:", httpRequest);
+                                            alert(json.msg);
+                                        } else {
+                                            callback(json.data);
+                                        }
+                                    } else {
+                                        callback();
+                                        console.log("微信登错误:", httpRequest);
+                                        alert("微信登录错误: 服务器状态码" + httpRequest.status);
+                                    }
+                                }
+                            }
+                        }, function (reason) {
+                            alert("微信登录错误: " + reason);
+                            callback();
+                        });
+                    }, function (reason) {
+                        alert("未安装微信");
+                        callback();
+                    });
+                };
+            }
+
+            if (window.$initCallback) {
+                window.$initCallback();
+            }
+        })();
+    }
+</script>
+</body>
+</html>

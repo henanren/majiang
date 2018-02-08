@@ -1,0 +1,16 @@
+spring:
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+
+debug:
+    false
+server:
+    port: 9090
+
+client:
+    apiAddress: http://www.bjmajiang.com/
+    apiVersion: v1
+    version: v2
