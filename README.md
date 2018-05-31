@@ -1,13 +1,14 @@
-# majiang 
+# majiang 开源麻将
 开源麻将，供用户学习。使用netty 开发
 
-作者博客：http://www.laomn.com
+# 作者博客
+http://www.laomn.com
 
-加我微信：
+# 加我微信
 
  ![image](https://github.com/henanren/majiang/blob/master/jpg/weixin.jpg)
 
-启动流程：
+# 启动流程
  
  
  ![image](https://github.com/henanren/majiang/blob/master/jpg/boss.jpg)
