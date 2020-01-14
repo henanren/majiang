@@ -1,3 +1,5 @@
+#打赏
+![image](https://github.com/henanren/majiang/blob/master/jpg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200114171506.png?raw=true)
 # majiang 开源麻将
 开源麻将，供用户学习。使用netty 开发
 
