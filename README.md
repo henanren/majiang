@@ -31,4 +31,4 @@ http://www.laomn.com
   ![image](https://github.com/henanren/majiang/blob/master/jpg/game4.jpg)
 
 #打赏
-![image](https://github.com/henanren/majiang/blob/master/jpg/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200114171506.png?raw=true)
+![image](https://github.com/henanren/majiang/blob/master/jpg/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114171743.png?raw=true)
