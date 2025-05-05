@@ -19,7 +19,7 @@
         <module>distribution</module>
     </modules>
     <properties>
-        <spring.version>4.3.5.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <jackson.version>2.8.5</jackson.version>
         <junit.version>4.12</junit.version>
         <commons-collections.version>3.2.2</commons-collections.version>
